@@ -6,6 +6,7 @@ tags:
   - AI
   - Software Health
   - Writing
+cover_partial: covers/just-ask-sarah
 summary: >
     Documentation used to back up organizational memory. With agents, it becomes execution context. 
 description: >

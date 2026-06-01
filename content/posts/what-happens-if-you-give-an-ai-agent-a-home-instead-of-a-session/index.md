@@ -4,6 +4,7 @@ date: 2026-04-11
 tags:
   - AI
   - Autonomous Agents
+cover_partial: covers/ai-agent-home
 summary: |
   My design goals for building an autonomous AI agent, rather than limiting it to
   interactive prompting session-by-session.

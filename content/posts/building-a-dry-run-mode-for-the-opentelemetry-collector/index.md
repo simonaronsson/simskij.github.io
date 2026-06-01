@@ -5,6 +5,7 @@ canonical: https://ubuntu.com/blog/building-a-dry-run-mode-for-the-opentelemetry
 tags:
   - Observability
   - OpenTelemetry
+cover_partial: covers/otel-dry-run
 summary: |
   Signal Studio explores a deficit in the OpenTelemetry ecosystem: how to assess the impact
   of changes to your config.yaml *before* rolling out in production.
