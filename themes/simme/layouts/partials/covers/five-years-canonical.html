@@ -1,0 +1,49 @@
+<div style="position:relative;width:100%;aspect-ratio:3/1;overflow:hidden;background:var(--paper);">
+  <svg viewBox="0 0 1200 400" role="img" aria-labelledby="five-years-cover-title five-years-cover-desc" style="display:block;width:100%;height:100%;">
+    <title id="five-years-cover-title">Five-year observability timeline</title>
+    <desc id="five-years-cover-desc">A five-year timeline from early roadmap work through maturity, ownership, and handover.</desc>
+
+    <defs>
+      <pattern id="timeline-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="var(--rule)" stroke-width="1" opacity="0.35" />
+      </pattern>
+    </defs>
+
+    <rect width="1200" height="400" fill="var(--paper)" />
+    <rect width="1200" height="400" fill="url(#timeline-grid)" />
+
+    <g font-family="IBM Plex Mono, monospace" font-size="15" fill="var(--dim)" opacity="0.8">
+      <text x="100" y="54" text-anchor="middle">2021</text>
+      <text x="300" y="54" text-anchor="middle">2022</text>
+      <text x="500" y="54" text-anchor="middle">2023</text>
+      <text x="700" y="54" text-anchor="middle">2024</text>
+      <text x="900" y="54" text-anchor="middle">2025</text>
+      <text x="1100" y="54" text-anchor="middle">2026</text>
+    </g>
+
+    <line x1="100" y1="205" x2="1100" y2="205" stroke="var(--ink)" stroke-width="3" />
+
+    <g stroke="var(--rule)" stroke-width="1.5">
+      <line x1="100" y1="84" x2="100" y2="326" />
+      <line x1="300" y1="84" x2="300" y2="326" />
+      <line x1="500" y1="84" x2="500" y2="326" />
+      <line x1="700" y1="84" x2="700" y2="326" />
+      <line x1="900" y1="84" x2="900" y2="326" />
+      <line x1="1100" y1="84" x2="1100" y2="326" />
+    </g>
+
+    <g fill="var(--paper)" stroke-width="3">
+      <circle cx="300" cy="205" r="10" stroke="var(--ink)" />
+      <circle cx="500" cy="205" r="10" stroke="var(--ink)" />
+      <circle cx="700" cy="205" r="10" stroke="var(--ink)" />
+      <circle cx="900" cy="205" r="10" stroke="var(--ink)" />
+    </g>
+
+    <g>
+      <circle cx="100" cy="205" r="13" fill="var(--ink)" />
+      <circle cx="1100" cy="205" r="14" fill="var(--paper)" stroke="var(--ink)" stroke-width="3" />
+      <circle cx="1100" cy="205" r="8" fill="var(--ink)" />
+    </g>
+
+  </svg>
+</div>

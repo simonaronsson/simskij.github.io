@@ -35,7 +35,7 @@
     {{ $coverImg := .Resources.GetMatch "cover.{png,jpg,jpeg,gif,webp}" }}
     {{ $coverParam := .Params.cover }}
     {{ if .Params.cover_partial }}
-    <div style="width:100%;aspect-ratio:4/3;border-radius:2px;overflow:hidden;">{{ partial .Params.cover_partial . }}</div>
+    <div style="width:100%;aspect-ratio:4/3;border-radius:2px;overflow:hidden;display:flex;align-items:center;justify-content:center;background:var(--paper);">{{ partial .Params.cover_partial . }}</div>
     {{ else if $coverImg }}
     <img src="{{ $coverImg.RelPermalink }}" alt="" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:2px;">
     {{ else if $coverParam }}
